@@ -30,6 +30,5 @@ public class MovePlayer : MonoBehaviour
         float speed = rigidbody.velocity.magnitude;
         Vector3 dragForce = drag * speed * -rigidbody.velocity;
         rigidbody.AddForce(dragForce);
-
     }
 }
